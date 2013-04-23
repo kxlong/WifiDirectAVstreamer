@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:id="@+id/table"
+    android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	>
+	<TextView
+	android:id="@+id/textview1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="group name:"
+	>
+	</TextView>
+	<EditText
+	android:id="@+id/edittext1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text=""
+	android:textSize="18sp"
+	>
+	</EditText>
+	
+	<EditText
+	android:id="@+id/edittext2"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text=""
+	android:textSize="18sp"
+	>
+	</EditText>
+	</TableLayout>
